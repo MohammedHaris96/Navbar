@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#topbar{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    background: #34363c;
+    color: #b0b1b6;
+   
+}
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #b0b1b6;
+    font-family: "ff-basic-gothic-pro",sans-serif;
+    font-weight: lighter;
+}
+
+
+#item1, #item2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+#item2{
+    padding-right:50px;
+    width: 250px;
+}
+#item1{
+    padding-left: 50px;
+    width: 400px;
+
+}
+
+#navbar{
+    width: 100%;
+    height: 64px;
+    background: #1E1F24;
+    display: flex;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #logo, #option{
+    flex: 1;
+} */
+#options{
+    width: 100%;
+    background: #b0b1b6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:100px;
+    padding-right: 170px;
+    color: #FBFBFB ;
+    background: transparent;
+
+}
+#signin{
+    display: flex;
+    width: 100px;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "ff-basic-gothic-pro",sans-serif;
+    color: #FBFBFB ;
+}
+#signin i{
+    margin-right: 5px;
+}
+
+#menu{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#tagline{
+    display: flex;
+    background: transparent;
+    width: 145px;
+    height: 64px;
+    color: #C99328;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "ff-basic-gothic-pro",sans-serif;
+}
+#tagline2:hover{
+    color: lightgrey;
+    -webkit-transition-delay: 500ms;
+   -moz-transition-delay: 500ms;
+   -o-transition-delay: 500ms;
+   transition-delay: 500ms;
+ }
+#tagline2{
+    display: flex;
+    background: transparent;
+    width: 135px;
+    height: 64px;
+    color :#F1F1F1;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px;
+    font-family: "ff-basic-gothic-pro",sans-serif;
+}
+#tagline:hover{
+   color: grey;
+   -webkit-transition-delay: 500ms;
+  -moz-transition-delay: 500ms;
+  -o-transition-delay: 500ms;
+  transition-delay: 500ms;
+}
+
+#sub-menu{
+    width: 135px;
+    height: 64px;
+    color: #F1F1F1;
+    background: transparent;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+   
+}
+#sub-menu option{
+ padding: 300px;
+  background: black;
+
+   
+}
+#sub-menu, #signin:hover{
+    color: grey;
+    -webkit-transition-delay: 500ms;
+   -moz-transition-delay: 500ms;
+   -o-transition-delay: 500ms;
+   transition-delay: 500ms;
+ }
+select {
+     /* width: 1000px; */
+      text-align-last:center;
+      font-size: 14px;
+      font-family: "ff-basic-gothic-pro",sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+     }
+     *:hover{
+         cursor: pointer;
+     }
+
+     i:hover{
+        color: grey;
+        -webkit-transition-delay: 500ms;
+       -moz-transition-delay: 500ms;
+       -o-transition-delay: 500ms;
+       transition-delay: 500ms;
+     }
+
+    #lchat:hover{
+        color:white;
+        -webkit-transition-delay: 500ms;
+       -moz-transition-delay: 500ms;
+       -o-transition-delay: 500ms;
+       transition-delay: 500ms;
+     }
+    
+     #lcontact:hover{
+        color:white;
+        -webkit-transition-delay: 500ms;
+       -moz-transition-delay: 500ms;
+       -o-transition-delay: 500ms;
+       transition-delay: 500ms;
+     }
+span{
+
+    background: #ff4e4e;
+    margin-left: 2rem;
+    width: 4rem;
+    height: 2px;
+}
